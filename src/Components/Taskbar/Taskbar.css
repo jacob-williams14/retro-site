@@ -1,0 +1,24 @@
+.taskbar {
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+    position: sticky;
+    background-color: #C0C0C0;
+    border-top: 1.5px outset #fff;
+    padding: 4px 10px;
+    z-index: 300;
+    display: grid;
+    grid-template-columns: "start" 1fr "timer" 1fr;
+}
+
+.start-button {
+    grid-column: "start";
+    grid-row: 1/2;
+    background-color: aqua;
+}
+
+.timer {
+    grid-column: "timer";
+    grid-row: 1/2;
+    background-color: red;
+}
