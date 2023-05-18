@@ -1,24 +1,33 @@
 .taskbar {
-    bottom: 0;
-    height: 34px;
-    width: 100%;
-    position: sticky;
-    background-color: #C0C0C0;
-    border-top: 1.5px outset #fff;
-    padding: 4px 10px;
-    z-index: 300;
-    display: grid;
-    grid-template-columns: "start" 1fr "timer" 1fr;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	position: sticky;
+	background-color: #c0c0c0;
+	border-top: 1.5px outset #fff;
+	padding: 4px 10px;
+	z-index: 300;
+	display: grid;
+	grid-template-columns: [start] 50% [timer] 50%;
+	align-items: center;
 }
 
-.start-button {
-    grid-column: "start";
-    grid-row: 1/2;
-    background-color: aqua;
+.button-column {
+	grid-column: start;
+	background-color: #c0c0c0;
 }
 
-.timer {
-    grid-column: "timer";
-    grid-row: 1/2;
-    background-color: red;
+.timer-column {
+	grid-column: timer;
+	background-color: #c0c0c0;
+	padding-right: 20px;
+	height: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.start {
+	font-family: "px sans nouveaux", sans-serif;
+	height: 100%;
 }
