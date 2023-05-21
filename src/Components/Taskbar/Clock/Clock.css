@@ -1,7 +1,6 @@
 .clock {
 	box-shadow: -1px -1px #000;
 	border: 1px inset rgba(0, 0, 0, 0.67);
-	padding: 3px 7px 3px 7px;
 	font-size: 14px;
 	font-family: "px sans nouveaux", sans-serif;
 	font-weight: bold;

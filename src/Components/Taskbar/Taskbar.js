@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Taskbar.css";
-import Clock from "../Clock/Clock";
+import Clock from "./Clock/Clock";
+import StartButton from "./StartButton/StartButton";
 
 export default function Taskbar() {
 	return (
 		<div className="taskbar">
 			<div className="button-column">
-				<button className="start">Start</button>
+				<StartButton />
 			</div>
 			<div className="timer-column">
 				<Clock />

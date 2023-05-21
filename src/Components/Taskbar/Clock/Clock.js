@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Clock.css";
 
-function Clock() {
+export default function Clock() {
 	const time = new Date().toLocaleTimeString();
 	const [currentTime, setCurrentTime] = useState(time);
 
@@ -16,5 +16,3 @@ function Clock() {
 
 	return <div className="clock">{currentTime}</div>;
 }
-
-export default Clock;
