@@ -4,7 +4,7 @@
 	width: 100%;
 	position: sticky;
 	background-color: #c0c0c0;
-	border-top: 1.5px outset #fff;
+	border-top: 2px outset #fff;
 	padding: 4px 10px;
 	z-index: 300;
 	display: grid;

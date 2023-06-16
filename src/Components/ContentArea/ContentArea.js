@@ -1,5 +1,6 @@
 import React from "react";
+import "./ContentArea.css"
 
 export default function ContentArea() {
-	return <div>ContentArea</div>;
+	return <div className="contentArea">ContentArea</div>;
 }
