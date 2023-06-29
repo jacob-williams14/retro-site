@@ -1,9 +1,9 @@
 .clock {
-	box-shadow: -1px -1px #000;
-	border: 1px inset rgba(0, 0, 0, 0.67);
-	font-size: 14px;
-	font-family: "px sans nouveaux", sans-serif;
-	font-weight: bold;
-	text-align: center;
-	width: 100px;
+  box-shadow: -1px -1px #000;
+  border: 1px inset rgba(0, 0, 0, 0.67);
+  font-size: 14px;
+  font-family: 'px sans nouveaux', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
 }

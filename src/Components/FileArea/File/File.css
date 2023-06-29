@@ -1,6 +1,16 @@
 .fileContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desktopImage {
+    width: 90px;
+    align-items: center;
+    aspect-ratio: 4/3;
+}
+
+.fileName {
+    text-align: center;
+    color: white;
 }

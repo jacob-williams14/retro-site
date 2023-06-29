@@ -1,28 +1,28 @@
 .taskbar {
-	bottom: 0;
-	height: 30px;
-	width: 100%;
-	position: sticky;
-	background-color: #c0c0c0;
-	border-top: 2px outset #fff;
-	padding: 4px 10px;
-	z-index: 300;
-	display: grid;
-	grid-template-columns: [start] 50% [timer] 50%;
-	align-items: center;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  position: sticky;
+  background-color: #c0c0c0;
+  border-top: 2px outset #fff;
+  padding: 4px 10px;
+  z-index: 300;
+  display: grid;
+  grid-template-columns: [start] 50% [timer] 50%;
+  align-items: center;
 }
 
 .button-column {
-	grid-column: start;
-	background-color: #c0c0c0;
+  grid-column: start;
+  background-color: #c0c0c0;
 }
 
 .timer-column {
-	grid-column: timer;
-	background-color: #c0c0c0;
-	padding-right: 20px;
-	height: 100%;
-	display: flex;
-	justify-content: end;
-	align-items: center;
+  grid-column: timer;
+  background-color: #c0c0c0;
+  padding-right: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }

@@ -2,7 +2,7 @@ import files from './files'
 
 export const schemaTypes = [
   // Document types
-  files
+  files,
 
   // Other types
 ]
